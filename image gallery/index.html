@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <h1>IMAGE GALLERY</h1>
+   <h2> FLOWERS </h2>
+
+   <!-- Button to return to the welcome page -->
+   <a href="welcome.html" class="home-button">Home</a>
+   
+   <div class="gallery">
+    <a href="#" data-description="Bird of Paradise"><img src="bird of paradise.jpg" height="200"></a>
+    <a href="#" data-description="Carnation"><img src="carnation.jpg" height="200"></a>
+    <a href="#" data-description="Chamomile"><img src="chamomile.jpg" height="200"></a>
+    <a href="#" data-description="Clover"><img src="clover.jpeg" height="200"></a>
+    <a href="#" data-description="Daisy"><img src="daisy.avif" height="200"></a>
+    <a href="#" data-description="Ginger"><img src="ginger.jpg" height="200"></a>
+    <a href="#" data-description="Heliconia"><img src="heliconia.webp" height="200"></a>
+    <a href="#" data-description="Hibiscus"><img src="hibiscus.webp" height="200"></a>
+    <a href="#" data-description="Jasmine"><img src="jasmine.jpg" height="200"></a>
+    <a href="#" data-description="Lavender"><img src="lavender.jpeg" height="200"></a>
+    <a href="#" data-description="Lily"><img src="lily.png" height="200"></a>
+    <a href="#" data-description="Lotus"><img src="lotus.jpg" height="200"></a>
+    <a href="#" data-description="Orchid"><img src="orchid.jpg" height="200"></a>
+    <a href="#" data-description="Plumeria"><img src="Plumeria.jpg" height="200"></a>
+    <a href="#" data-description="Poppy"><img src="poppy.webp" height="200"></a>
+    <a href="#" data-description="Rose"><img src="rose.jpeg" height="200"></a>
+    <a href="#" data-description="Sunflower"><img src="sunflower.jpg" height="200"></a>
+    <a href="#" data-description="Tulip"><img src="tulip.webp" height="200"></a>
+    <a href="#" data-description="Anthurium"><img src="anthurium.jpeg" height="200"></a>
+    <a href="#" data-description="Violet"><img src="violet.jpeg" height="200"></a>
+    <a href="#" data-description="Frangipani"><img src="Frangipani.jpg" height="200"></a>
+   </div>
+
+   <!-- The Modal -->
+   <div id="myModal" class="modal">
+    <div class="modal-content-container">
+      <span class="close">&times;</span>
+      <span class="cancel">Cancel</span>
+      <span class="prev">&lt;</span>
+      <img class="modal-content" id="img01">
+      <span class="next">&gt;</span>
+      <div id="imageCount" class="image-count"></div> <!-- Image count container -->
+    </div>
+    <div id="caption"></div>
+    <div class="loading" id="loading">Loading...</div>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
